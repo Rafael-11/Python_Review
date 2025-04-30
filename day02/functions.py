@@ -115,3 +115,17 @@ print('-------------------------------------------------')
 class test:
     def method(self):
         pass
+print('-------------------------------------------------')
+
+def concat(a: str, b,c='',d='',e=''):
+    print(f'{a} {b} {c} {d} {e}'.strip())
+concat('Cybertek','coding')
+concat('Python',3,2.5,True)
+concat('Java',3,2.5,True,False)
+
+
+
+
+
+
+
