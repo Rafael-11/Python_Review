@@ -58,5 +58,19 @@ print('------------------------------')
 for x in reversed(range(0,len(days))):
     print(x)
 
+print('------------------------------')
+# nested or multiple demnetional array in python
+
+nested_tuple=((1,2,3),(4,5,6))
+print(len(nested_tuple))
+
+for x in nested_tuple:
+    print(x)
+
+print('------------------------------')
+# index for multi demontional tuple
+for i in  range (0,len(nested_tuple)):
+    for j in range(0,len(nested_tuple[i])):
+        print(nested_tuple[i][j])
 
 
