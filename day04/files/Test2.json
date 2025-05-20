@@ -1,0 +1,12 @@
+{
+  "name": "Aaron King",
+  "age": 28,
+  "address": {
+    "street": "10 Test Test Road",
+    "City": "London"
+  },
+  "phone": [
+    "+44 12312312",
+    "+44 12121212"
+  ]
+}
